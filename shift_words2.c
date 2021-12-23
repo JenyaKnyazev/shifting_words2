@@ -129,6 +129,7 @@ void copy(char a[], char b[]) {
 void main(){
     char str[200];
     char str2[200];
+    puts("Enter line of words");
     gets(str);
     copy(str2, str);
     puts("\nright shift letter in words:");
